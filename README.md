@@ -23,7 +23,7 @@ The program accepts the following command line arguments:
 
 | Option                | Description                                                                                                                                                                                                 |
 | --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `--env_name`          | The name of the dataset. Possible choices are `bibtex`, `mediamill`, `delicious`, `yahoo`                                                                                                                   |
+| `--env_name`          | The name of the dataset. Possible choices are `bibtex`, `mediamill`, `delicious`                                                                                                                            |
 | `--algorithm`         | The algorithm to use. Possible choices are `ppo`, `ppo-lstm`, `reinforce`, `actor-critic`, `ee-net`,`tamer`, `bootstrapped-ts`, `linearucb`                                                                 |
 | `--seed`              | Sets gym pytorch and numpy seeds                                                                                                                                                                            |
 | `--timesteps`         | The timesteps for the algorithm                                                                                                                                                                             |
